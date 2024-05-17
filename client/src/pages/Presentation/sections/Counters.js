@@ -34,7 +34,7 @@ function Counters() {
               count={70}
               suffix="+"
               title="Coded Elements"
-              description="From buttons, to inputs, navbars, alerts or cards, you are covered"
+              description="From buttons"
             />
           </Grid>
           <Grid item xs={12} md={4} display="flex">
@@ -43,16 +43,12 @@ function Counters() {
               count={15}
               suffix="+"
               title="Design Blocks"
-              description="Mix the sections, change the colors and unleash your creativity"
+              description="Mix the sections,Mix the sections"
             />
             <Divider orientation="vertical" sx={{ display: { xs: "none", md: "block" }, ml: 0 }} />
           </Grid>
           <Grid item xs={12} md={4}>
-            <DefaultCounterCard
-              count={4}
-              title="Pages"
-              description="Save 3-4 weeks of work when you use our pre-made pages for your website"
-            />
+            <DefaultCounterCard count={4} title="Pages" description="Save 3-4 weeks " />
           </Grid>
         </Grid>
       </Container>

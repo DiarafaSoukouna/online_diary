@@ -16,44 +16,27 @@ Coded by www.creative-tim.com
 // @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-import Divider from "@mui/material/Divider";
+// import Divider from "@mui/material/Divider";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+// import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
 import DefaultReviewCard from "examples/Cards/ReviewCards/DefaultReviewCard";
 
 // Images
-import appleLogo from "assets/images/logos/gray-logos/logo-apple.svg";
-import facebookLogo from "assets/images/logos/gray-logos/logo-facebook.svg";
-import nasaLogo from "assets/images/logos/gray-logos/logo-nasa.svg";
-import vodafoneLogo from "assets/images/logos/gray-logos/logo-vodafone.svg";
-import digitalOceanLogo from "assets/images/logos/gray-logos/logo-digitalocean.svg";
+// import appleLogo from "assets/images/logos/gray-logos/logo-apple.svg";
+// import facebookLogo from "assets/images/logos/gray-logos/logo-facebook.svg";
+// import nasaLogo from "assets/images/logos/gray-logos/logo-nasa.svg";
+// import vodafoneLogo from "assets/images/logos/gray-logos/logo-vodafone.svg";
+// import digitalOceanLogo from "assets/images/logos/gray-logos/logo-digitalocean.svg";
 
 function Information() {
   return (
-    <MKBox component="section" py={12}>
+    <MKBox component="section">
       <Container>
-        <Grid
-          container
-          item
-          xs={12}
-          lg={6}
-          justifyContent="center"
-          sx={{ mx: "auto", textAlign: "center" }}
-        >
-          <MKTypography variant="h2">Trusted by over</MKTypography>
-          <MKTypography variant="h2" color="info" textGradient mb={2}>
-            1,679,477+ web developers
-          </MKTypography>
-          <MKTypography variant="body1" color="text" mb={2}>
-            Many Fortune 500 companies, startups, universities and governmental institutions love
-            Creative Tim&apos;s products.
-          </MKTypography>
-        </Grid>
-        <Grid container spacing={3} sx={{ mt: 8 }}>
+        <Grid container spacing={3}>
           <Grid item xs={12} md={6} lg={4}>
             <DefaultReviewCard
               name="Nick Willever"
@@ -80,7 +63,7 @@ function Information() {
             />
           </Grid>
         </Grid>
-        <Divider sx={{ my: 6 }} />
+        {/* <Divider sx={{ my: 6 }} />
         <Grid container spacing={3} justifyContent="center">
           <Grid item xs={6} md={4} lg={2}>
             <MKBox component="img" src={appleLogo} alt="Apple" width="100%" opacity={0.6} />
@@ -103,7 +86,7 @@ function Information() {
               opacity={0.6}
             />
           </Grid>
-        </Grid>
+        </Grid> */}
       </Container>
     </MKBox>
   );
